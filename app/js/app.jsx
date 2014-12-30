@@ -1,11 +1,12 @@
 window.React = require('react');
+var HelloWorldComponent = require('./components/HelloWorldComponent.jsx');
 
 var App = React.createClass({
 
   render: function() {
     return (
       <div>
-        <p>Hello world !</p>
+        <HelloWorldComponent/>
       </div>
     );
   }
